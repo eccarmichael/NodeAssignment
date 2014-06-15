@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/eccarmichael/NodeAssignment/issues"
   },
-  "homepage": "https://github.com/eccarmichael/NodeAssignment"
+  "homepage": "https://github.com/eccarmichael/NodeAssignment",
+  "dependencies": {
+    "random-words": "0.0.1"
+  }
 }
