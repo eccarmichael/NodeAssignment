@@ -1,0 +1,19 @@
+{
+  "name": "NodeAssignment1",
+  "version": "0.0.0",
+  "description": "Hello World to a file",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eccarmichael/NodeAssignment.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/eccarmichael/NodeAssignment/issues"
+  },
+  "homepage": "https://github.com/eccarmichael/NodeAssignment"
+}
