@@ -1,8 +1,8 @@
 {
-  "name": "NodeAssignment1",
+  "name": "NodeAssignment3",
   "version": "0.0.0",
-  "description": "Hello World to a file",
-  "main": "helloworld.js",
+  "description": "Get the current weather at an address",
+  "main": "weatherapp",
   "scripts": {
     "test": ""
   },
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/eccarmichael/NodeAssignment",
   "dependencies": {
-    "random-words": "0.0.1"
+    "supertest": "~0.13.0"
   }
 }
