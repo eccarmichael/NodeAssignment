@@ -1,7 +1,9 @@
 var fs = require('fs');
 var sys = require('sys');
-var newRequest = require('supertest'); // TODO: Ineffecient...
+var newRequest = require('supertest'); 
 
+
+// TODO: Put all this in a json config file!
 var logFile = "weatherrequest.log";
 var googleAPIBaseUrl = "https://maps.googleapis.com/maps/api/geocode/json?";
 var googleAPIKey = "AIzaSyAetPrzgN50CQc2QYGctcskeun5R07KlJM";
@@ -9,6 +11,8 @@ var googleRequiredParams = "sensor=false";
 var forecastIOApiUrl = "https://api.forecast.io/";
 var forecastIOApiPath = "forecast/";
 var forecastIOApiKey = "98fafca6511d046f46c53ccb458fefd4";
+
+// TODO: Handle API changes
 
 // Wait for input from the console for an address - prompt the user
 UserPrompt();
@@ -40,7 +44,6 @@ stdin.addListener("data", function(enteredAddy) {
         }
       }); 
     }
-
   });
 });
  
