@@ -1,0 +1,6 @@
+{
+    "google-api-key": "API_KEY",
+    "forecast-io-key": "FORECAST_KEY",
+    "log-file": "/tmp/FILENAME"
+}
+
