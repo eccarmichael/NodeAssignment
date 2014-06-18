@@ -1,25 +1,22 @@
 {
-  "name": "node-assignment",
+  "name": "NodeAssignment3",
   "version": "0.0.0",
-  "description": "NodeAssignment ==============",
-  "main": "andrew-weatherapp.js",
-  "dependencies": {
-    "dateformat": "^1.0.8-1.2.3",
-    "q": "^1.0.1",
-    "supertest": "^0.13.0"
-  },
-  "devDependencies": {},
+  "description": "Get the current weather at an address",
+  "main": "weatherapp",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ajcrites/NodeAssignment.git"
+    "url": "git://github.com/eccarmichael/NodeAssignment.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/ajcrites/NodeAssignment/issues"
+    "url": "https://github.com/eccarmichael/NodeAssignment/issues"
   },
-  "homepage": "https://github.com/ajcrites/NodeAssignment"
+  "homepage": "https://github.com/eccarmichael/NodeAssignment",
+  "dependencies": {
+    "supertest": "~0.13.0"
+  }
 }
