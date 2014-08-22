@@ -8,13 +8,13 @@ NodeAssignment
 	* When the application is run, print out a statement after it has written to the file stating that that text was just written to the file.
 	* Don't hard-code "Hello World" all over your program - it should only show up once in your code.
 	* There should be a package.json file in your repo (remember npm init)
-	* Use GitHub and commit your changes to your develop branch
+	* Use GitHub and commit your changes to your branch
 
 
 ##Assignment 2
 
 * Same as assignment 1, however instead of printing "Hello World", generate a random list of words to print to the file
-* Add node_modules to your .gitignore
+* Remember to add node_modules to your .gitignore
 * Print the number of times the application has been run since the last time that file was deleted/cleared
 
 
